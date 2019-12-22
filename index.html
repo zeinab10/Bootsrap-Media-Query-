@@ -1,75 +1,69 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About Me</title>
+    <title>About</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    
-<!--Bootstrap CDN--> 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 </head>
 
 <body>
+    <!-- Header and Page Links-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8"> <a href="index.html" id="logo">Zeinab Jeylani</a></div>
 
-<!--Header-->
-  <header id="mainheader">
-        <div class="container">
+            <div class="col-sm-4">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <a class="navbar-brand" href="index.html">About</a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                          <div class="navbar-nav">
-                            <a class="nav-item nav-link active" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
-                            <a class="nav-item nav-link" href="contact.html">contact</a>
-                          </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</a>
+                            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                            <a class="nav-item nav-link" href="contact.html">Contact</span></a>
                         </div>
-                      </nav>      
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Main Content of Profile Page -->
+        <div id="main-content" class="container">
+            <section class="main-section">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h1>About Me</h1>
+                        <!-- Added img-responsive class to img -->
+
+                        <p><img class="profile" class="img-responsive" src="assets/images/0-1.jpeg"
+                                alt="Zeinab Jeylani">
+                                </p> Currently, I am employed at SPS Commmerce as a consultant. I am looking to develop myself and learn how to professionally code.
+                           </p>
+                    </div>
+                </div>
+            </section>
         </div>
     </div>
+    </div>
+    <!-- Footer -->
 
-            </header>
+    <footer>
 
-  <!--Main Section-->
-      <div id= "main-content" class="container">
-             <section class= "main-section">
-        
-    <!--Row/Col-->   
-         <div class="row">
-             <div class="col-sm-12">
-            
-            <h1>About Me</h1>
-
-              <p><img class="profile" src="assets/images/0-1.jpeg" alt="Zeinab Jeylani">
-              <p> Currenlty I work as a Consultant at SPS commerce. I am looking to change my role in my company. Taking this coding bootcamp
-                  will prepare me to become a full stack web developer.</p>
-                  <p> I love to motivate others and hope one day to become a motivator/inspirational speaker.</p>
-                  <p>In my free time I love go to to museums, draw and relax with my family</p>
-         
-         
+        <div class="row">
+            <div class="col-sm-12">
+                <p>Copyright</p>
             </div>
-            </div>
-                 </section>
-
-        </div>
-        </div>
         </div>
 
-        <footer>
-                <div class="container">
-                    <p>Copyright Zeinab</p>
-                </div>
-            </footer>
+    </footer>
 
-    </body>
+</body>
 
-    </html>
+</html>

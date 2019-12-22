@@ -10,84 +10,70 @@
     <title></title>
    <!--Bootstrap CDN--> 
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
- <!---->
 </head>
 
 <body>
 <!--Header-->
-  <header id="mainheader">
-        <div class="container">
-        <div class="row">
+  <div class="container">
+      <div class="row">
+          <div class="col-sm-4"> <a href="index.html" id="logo"></a></div>
 
-            <div class="col-sm-8"> <a href="index.html" id="logo">Zeinab Jeylani</a></div>
+          <div class="col-sm-8">
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse"
+                      data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                      aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                      <div class="navbar-nav">
+                          <a class="nav-item nav-link" href="index.html">About</a>
+                          <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                          <a class="nav-item nav-link active" href="#">Contact <span
+                                  class="sr-only">(current)</span></a>
+                      </div>
+                  </div>
+              </nav>
+          </div>
+      </div>
+          <!-- Main Content of Contact -->
+          <div id="main-content" class="container">
+              <section class="main-section">
+                  <div class="row">
+                      <div class="col-sm-12">
+                          <h1>Contact</h1>
+                          <form action="mailto: zeinabjeylani@gmail.com" method="get" enctype="text/plain">
+  
+                              <label for="name">Name</label>
+                              <input type="text" id="name" name="user_name" placeholder="John Doe">
+  
+                              <label for="email">Email</label>
+                              <input type="email" id="email" name="user_email" placeholder="example@gmail.com">
+  
+                              <label for="message">Message</label>
+                              <textarea id="message" name="user_message"></textarea>
+  
+  
+                              <button type="submit">Submit</button>
+  
+                          </form>
+                      </div>
+                  </div>
+                    
+              </section>
+          </div>
+      </div>
+      <!-- Footer -->
+      <footer>
+  
+          <div class="row">
+              <div class="col-sm-12">
 
-            <div class="col-sm-4">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" 
-                          data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
-                          aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                          <div class="navbar-nav">
-                            <a class="navbar-brand" href="index.html">About</a>
-                            <a class="nav-item nav-link active" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
-                            <a class="nav-item nav-link" href="contact.html">contact</a>
-
-
-                          </div>
-                          </div>
-                        </nav>  
-                        </div>
-                      </div>  
-
-<!--Main Section-->
-<div id= "main-content" class="container">
-		<section class= "main-content"></section>
-<div class="row">
- <div class="col-sm-12">
-
-
-        <h1>Contact</h1>
-
-        <form action= "mailto:zeinajeylani0@gmail.com" method="get" enctype="text/plain">
-
-        <label for="name">Name</label>
-        <input type="text" id="name" name="user_name" placeholder="John Smith">
-
-        <label for="email">Email</label>
-        <input type="email" id="email" name="user_email" placeholder="youremail@gmail.com">
-
-        <label for="message">Message</label>
-        <textarea id="message" name="user_message"></textarea>
+                  <p>Copyright</p>
+                </div>
+            </div>
     
-
-    <button type="submit">Submit</button>
-
-           </form>
-          
-      </div>
-    </div>
-  </section>
-
-  </div>
-</div>
-
-<!--Footer-->
-<footer>
-        <div class="row">
-
-    <div class="col-sm-12">
-            <p>Copyright Zeinab</p>
-        </div>
-      </div>
-
-    </footer>
-
-  </body>
-  </html>
+        </footer>
+    </body>
+    
+    </html>
